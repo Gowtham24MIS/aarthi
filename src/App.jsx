@@ -8,7 +8,9 @@ function App() {
   return (
     <>
       <Header />
-      <Home/>
+      <main className="pt-[72px]">
+        <Home />
+      </main>
     </>
   );
 }
