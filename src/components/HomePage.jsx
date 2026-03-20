@@ -5,7 +5,7 @@ import bake from "../assets/pastry chef-pana.png"
 import about from "../assets/bg-design.png"
 import HeroCarousel from "./HeroCarousel"
 import baker from "../assets/Baker-rafiki (1).png"
-import Contact from "./contact"
+import Contact from "./Contact"
 import zomato from "../assets/zomato.jpg"
 import swiggy from "../assets/swiggy.jpg"
 import zepto from "../assets/zepto.png"
@@ -19,7 +19,7 @@ function HomePage(){
         <>
         <div className="font-hammer overflow-x-hidden overflow-y-hidden">
              {/* This is the First h-screen of the web */}
-            <div className="text-center text-white text-7xl leading-relaxed font-hammer h-[calc(100vh-72px)] relative top-[150px]">
+            <div className="text-center text-white text-7xl leading-relaxed font-hammer h-[calc(100vh-72px)] relative top-[100px]">
 
                 <h1 className="hover:pointer">Welcome To <br />A<span className="text-red-300">@</span>rthi Sweets & Bakery</h1>
              
