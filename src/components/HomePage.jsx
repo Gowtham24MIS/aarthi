@@ -17,9 +17,9 @@ import logo from "../assets/aa.png"
 function HomePage(){
     return(
         <>
-        <div className="font-hammer overflow-x-hidden overflow-y-hidden">
+        <div className="font-hammer overflow-hidden">
              {/* This is the First h-screen of the web */}
-            <div className="text-center text-white text-7xl leading-relaxed font-hammer h-[calc(100vh-72px)] relative top-[100px]">
+            <div className="text-center text-white text-3xl md:text-5xl lg:text-7xl leading-relaxed font-hammer h-[calc(100vh-72px)] relative top-[180px]">
 
                 <h1 className="hover:pointer">Welcome To <br />A<span className="text-red-300">@</span>rthi Sweets & Bakery</h1>
              
@@ -127,11 +127,11 @@ function HomePage(){
                         <h2 className="text-6xl text-center">About Us</h2>
                         <center><div className="w-[500px] h-[2px] relative top-[20px]  bg-[#631212] "></div></center>
                         <h2 className="relative top-[60px] text-6xl ">A<span className="text-red-300">@</span>rthi Sweets & Bakery</h2>
-                        <h4 className="text-[#631212] absolute top-[200px] left-[780px] text-2xl ">Since 1999</h4>
+                        <h4 className="text-[#631212] relative top-20 flex justify-center text-2xl ">Since 1999</h4>
                         <img src={about} alt="about" className="w-full  top-[] "/>
                         
                         <img src={baker} alt="baker" className="w-[500px] absolute top-[200px] left-[50px] rounded-2xl scale-x-[-1] " />
-                        <h4 className="absolute bottom-[180px] text-[#631212] left-[600px] text-left text-xl">At Aarthi Sweets and Bakery in Ambattur, we blend Chennai's rich sweet-making heritage<br/> with fresh bakery artistry since our founding over two decades ago.<br/><br/>
+                        <h4 className="absolute bottom-20 py-7 text-[#631212] left-[600px] text-left text-xl">At Aarthi Sweets and Bakery in Ambattur, we blend Chennai's rich sweet-making heritage<br/> with fresh bakery artistry since our founding over two decades ago.<br/><br/>
 
 Our Ambattur outlets specialize in authentic Tamil Nadu sweets like ghee-laden laddu and <br/>mysore pak, alongside fluffy cakes, savory puffs, and daily-baked breads using premium, local ingredients.<br/><br/>
 
@@ -140,7 +140,7 @@ Serving the local community with passion, hygiene, and unbeatable freshness—wh
 
                 
 
-                <div className="h-[calc(100vh-72px)]">
+                <div className="min-h-[calc(100vh-72px)]">
                     <div className="text-center text-white  font-hammer h-screen">
                             <h2 className="text-red-950 relative top-[570px] text-6xl">Our Branches</h2> 
                             <center><div className="w-[400px] h-[2px] relative top-[590px]   bg-white "></div></center>
@@ -166,7 +166,7 @@ Serving the local community with passion, hygiene, and unbeatable freshness—wh
                         </div>
                     </div>
 
-                    <div className="bg-red-300 font-hammer h-[300px] relative top-[70px] ">
+                    <div className="bg-red-300 font-hammer h-[300px] relative ">
                         <h1 className="text-center text-4xl text-red-900 relative top-[20px] ">We Are Also Availabe On</h1>
                          <center><div className="w-[500px] h-[2px] relative top-[40px] bg-white "></div></center>
                         <div className="flex justify-around">
@@ -194,12 +194,12 @@ Serving the local community with passion, hygiene, and unbeatable freshness—wh
                 </div>
             {/* Contact us form */}
                     
-                <div className="h-[calc(100vh-72px)] relative top-[600px] ">
-                    <div className="relative bottom-[50px] ">
+                <div className="h-[calc(100vh-72px)] ">
+                    <div className="relative  ">
                         <Contact/>
                     </div>
 
-                    <div className="flex justify-between relative  gap-6 mx-10">
+                    <div className="flex justify-between gap-6 mx-10 mt-5">
                         <div className="flex justify-around gap-6">
                             <img src={logo} alt="logo" className="w-[150px] rounded-3xl" />
                             <h2 className="text-center text-white text-2xl relative top-[25px] font-hammer">A@rthi Sweets <br/> & <br/> bakery</h2>
