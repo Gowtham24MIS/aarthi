@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="pt-[72px]">
+      <main className="pb-[20px]">
         <Home />
       </main>
     </>
